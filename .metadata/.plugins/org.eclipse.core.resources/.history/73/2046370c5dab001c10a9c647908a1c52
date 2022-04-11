@@ -1,0 +1,13 @@
+package co.google.examples;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class BrowserSetup {
+
+	
+	public static void main(String[] args) {
+		
+		//locating chrome
+		WebDriverManager.chromedriver().setup();
+	}
+}

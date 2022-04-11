@@ -1,0 +1,20 @@
+package co.google.examples;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class BrowserSetup {
+
+	
+	public static void main(String[] args) {
+		
+		//locating chrome
+		WebDriverManager.chromedriver().setup();
+		// defining chrome driver
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://www.google.co.in/");
+		
+	}
+}

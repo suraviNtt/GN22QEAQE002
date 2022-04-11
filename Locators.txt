@@ -1,0 +1,17 @@
+Xpath : 
+
+Absolute : /html/body/header/div/a/div/svg/text[1]
+
+ Relative : //*[@id="PHPTRAVELS"]
+
+Sysntax : //tag[@attribute='valueOfAttribute']
+
+//h3/strong[text()='Customer']
+
+//strong[normalize-space()='Customer']
+
+
+CSS:
+
+id - > #
+class -> .
